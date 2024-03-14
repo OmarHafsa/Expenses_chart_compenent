@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+:root{
+/*fonts*/
+--font-family:"DM Sans" , sans-serif;
+--font-size:18px;
+--font-weight-1: 400px;
+--font-weight-2: 700px;
+/*color*/
+--Soft-red: hsl(10, 79%, 65%);
+--Cyan: hsl(186, 34%, 60%);
+--Dark-brown: hsl(25, 47%, 15%);
+--Medium-brown: hsl(28, 10%, 53%);
+--Cream: hsl(27, 66%, 92%);
+--Very-pale-orange: hsl(33, 100%, 98%);
+}
+*{
+    font-family: var(--font-family);
+    margin: 0;
+}
+body{
+    background-color: var(--Cream);
+    font-size: var(--font-size);
+}
+.cotainers{
+    display: flex;
+    flex-direction: row;
+}
+.first-container{
+    background-color: var(--Soft-red);
+    border-radius: 15px;
+    height: 80px;
+    margin: 150px auto;
+    width: 400px;
+    display: flex;
+    color: white;
+}
+.grid-first-container{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+}
+.first-container img{
+    height: 50px;
+    width: 50px;
+    margin-left: 180px;
+    margin-top: 12px;
+}
+.second-container{
+height: 400px;
+width: 400px;
+background-color: var(--Very-pale-orange);
+border-radius: 15px;
+margin:-10% auto;
+}
+.second-container h1{
+    color: var(--Dark-brown);
+    font-size: 25px;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 10px;
+}
+.columns{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 80px;
+}
+.columns .mon{
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+}
+.columns .mon .moon{
+    margin-left: 19px;
+}
+.columns .mon p{
+    color: var(--Medium-brown);
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.columns .mon .mon-column{
+    background-color: var(--Soft-red);
+    height: 50px;
+    width: 40px;
+    margin-top: 80px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.columns .mon .tue-column{
+    background-color: var(--Soft-red);
+    height: 80px;
+    width: 40px;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+.columns .mon .wed-column{
+    background-color: var(--Cyan);
+    height: 100px;
+    width: 40px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.columns .mon .thu-column{
+    background-color: var(--Soft-red);
+    height: 70px;
+    width: 40px;
+    margin-top: 60px;
+    border-radius: 8px;
+}
+.columns .mon .fri-column{
+    background-color: var(--Soft-red);
+    height: 60px;
+    width: 40px;
+    margin-top: 70px;
+
+    border-radius: 8px;
+}
+.columns .mon .sat-column{
+    background-color: var(--Soft-red);
+    height: 90px;
+    width: 40px;
+    margin-top: 39px;
+    border-radius: 8px;
+}
+.columns .mon .sun-column{
+    margin-left: 18px;
+    background-color: var(--Soft-red);
+    height: 80px;
+    width: 40px;
+    margin-left: 0px;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+hr{
+  
+    margin-top: 40px;
+    width: 340px;
+    margin-left: -300px;
+    color: var(--Medium-brown);
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 300px;
+
+}
+.total p{
+    color: var(--Medium-brown);
+    font-size: 14px;
+}
+.total1 p{
+    margin-left: 10px;
+}
+.total1{
+    margin-left: 20px;
+    margin-right: 100px;
+}
+.total2{
+margin-top: 15px;
+}
